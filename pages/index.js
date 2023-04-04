@@ -11,7 +11,7 @@ import web1 from "../public/minister.png";
 import web2 from "../public/searchBar.png";
 import web3 from "../public/chopingApp.png";
 import web4 from "../public/myadmin.png";
-import web5 from "../public/Karanta.png";
+import web5 from "../public/karanta.png";
 import web6 from "../public/dictionnary.png";
 
 export default function Home() {
