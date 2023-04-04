@@ -2,7 +2,7 @@ import Head from "next/head";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
-import deved from "../public/dev-ed-wave.png";
+import deved from "../public/profileImg.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -47,7 +47,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://drive.google.com/file/d/1uUWoX4HEd4pZlFsNE54XI-AaT1soyjKI/view?usp=sharing"
+                  target="_blank" rel='noreferrer'
                 >
                   Resume
                 </a>
@@ -63,7 +64,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Hi, you can call me
-              <span className="text-teal-600"> Yacos</span> for short! I'm a web
+              <span className="text-teal-600"> Yacos</span> for short! I&apos;m a web
               developer with in-depth experience Web & mobile development. I was
               in self-taught for 4 years and i join a codecamp that make me
               create websites that help organizations address business
@@ -74,35 +75,35 @@ export default function Home() {
                 MERN stack (MongoDb, Express, React.js, Node.js)
               </span>
               , and the main languages in my tech stack is{" "}
-              <span className="text-teal-600">JavaScript</span> . I’m a lifelong
-              learner (currently enroll in{" "}
+              <span className="text-teal-600">JavaScript</span> . I am passionate about creating robust, user-friendly web applications, and I&apos;m expanding my skills as a student at 
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://www.microverse.org/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 Microverse
               </a>{" "}
-              Program !). Love musique, games and sport.
+              , a remote software development school. Love musique, games and sport.
+  .
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 href="https://www.linkedin.com/in/yacos-chaibou-961518251/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <AiFillLinkedin />
               </a>
               <a
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 href="https://github.com/Yacoubou-seidou"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <AiFillGithub />
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="profile" />
             </div>
           </div>
         </section>
@@ -110,7 +111,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance developer, I've
+              Since the beginning of my journey as a freelance developer, I&apos;ve
               done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
@@ -129,7 +130,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="ilustration"/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Front-End development
               </h3>
@@ -143,12 +144,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">JavaScript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="ilustration"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Back-end development
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website back-end? Let's
+                Do you have an idea for your next great website back-end? Let&apos;s
                 make it a reality.
               </p>
               <h4 className="py-4 text-teal-600">Tools I Use</h4>
@@ -157,7 +158,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">NoSQL</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="ilustration"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Framework</h3>
               <p className="py-2">
                 Did you want framework for your project? I can use many css
@@ -178,28 +179,28 @@ export default function Home() {
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://www.freecodecamp.org/learn"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 freecodecamp
               </a>
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://www.simplilearn.com/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 ,simplilearn
               </a>{" "}
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://www.cisco.com/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 ,cisco
               </a>
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://scrimba.com/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 ,scrimba
               </a>
@@ -207,16 +208,16 @@ export default function Home() {
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://www.codeloccol.org/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 codeloccol
               </a>
-              . like you will see in my resume, that make's me do many project
+              . like you will see in my resume, that make&apos;s me do many project
               some of them can be check in my{" "}
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://github.com/Yacoubou-seidou"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 github
               </a>
@@ -227,7 +228,7 @@ export default function Home() {
             <div className="growd basis-1/4 flex-4 ">
               <a
                 href="https://yacoubou-seidou.github.io/Project-MI/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -235,13 +236,14 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web1}
+                  alt="project"
                 />
               </a>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
                 href="https://yacoubou-seidou.github.io/searchBarAnimation/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -249,13 +251,14 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web2}
+                  alt="project"
                 />
               </a>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
                 href="https://yacoubou-seidou.github.io/Chopping/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -263,13 +266,14 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web3}
+                  alt="project"
                 />
               </a>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
                 href="https://yacoubou-seidou.github.io/Myadmin/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -277,13 +281,14 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web4}
+                  alt="project"
                 />
               </a>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
                 href="https://yacoubou-seidou.github.io/Karanta/"
-                target="_blank"
+                target="_blank" rel='noreferrer'
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -291,6 +296,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web5}
+                  alt="project"
                 />
               </a>
             </div>
@@ -298,6 +304,7 @@ export default function Home() {
               <a
                 href="https://yacoubou-seidou.github.io/englishDictionnary/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -305,6 +312,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web6}
+                  alt="project"
                 />
               </a>
             </div>
@@ -312,122 +320,13 @@ export default function Home() {
         </section>
 
         <footer className="bg-white dark:bg-gray-900">
-          <div className="py-10 ">
-            <h2 className="text-3xl py-1 dark:text-white">
-              More Project Links
-            </h2>
-          </div>
-          <div className="grid grid-cols-2 gap-8 py-8 md:grid-cols-4">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-800 uppercase dark:text-white">
-                Company
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="#" className=" hover:underline">
-                    About
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Careers
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Brand Center
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Blog
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-800 uppercase dark:text-white">
-                Help center
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Discord Server
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Twitter
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Facebook
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-800 uppercase dark:text-white">
-                Legal
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Licensing
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-800 uppercase dark:text-white">
-                Download
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    iOS
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Android
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Windows
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    MacOS
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
             <span className="text-sm text-gray-800 dark:text-gray-300 sm:text-center">
               © 2023{" "}
               <a
                 href="https://www.linkedin.com/in/yacos-chaibou-961518251/"
                 target="_blank"
+                rel="noreferrer"
                 className="hover:underline"
               >
                 Yacoubou Seidou
