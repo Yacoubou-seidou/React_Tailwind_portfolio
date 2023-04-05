@@ -239,6 +239,15 @@ export default function Home() {
                   alt="project"
                 />
               </a>
+              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+              <a
+                href="https://github.com/Yacoubou-seidou/Project-MI"
+                target="_blank" rel='noreferrer'
+              >
+                Link To Code
+              </a>
+              </button>
+              
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
@@ -254,6 +263,14 @@ export default function Home() {
                   alt="project"
                 />
               </a>
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+              <a
+                href="https://github.com/Yacoubou-seidou/searchBarAnimation"
+                target="_blank" rel='noreferrer'
+              >
+                Link To Code
+              </a>
+              </button>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
@@ -269,6 +286,14 @@ export default function Home() {
                   alt="project"
                 />
               </a>
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+              <a
+                href="https://github.com/Yacoubou-seidou/Chopping"
+                target="_blank" rel='noreferrer'
+              >
+                Link To Code
+              </a>
+              </button>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
@@ -284,6 +309,14 @@ export default function Home() {
                   alt="project"
                 />
               </a>
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+              <a
+                href="https://github.com/Yacoubou-seidou/Myadmin"
+                target="_blank" rel='noreferrer'
+              >
+                Link To Code
+              </a>
+              </button>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
@@ -299,6 +332,14 @@ export default function Home() {
                   alt="project"
                 />
               </a>
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+              <a
+                href="https://github.com/Yacoubou-seidou/Karanta"
+                target="_blank" rel='noreferrer'
+              >
+                Link To Code
+              </a>
+              </button>
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
@@ -315,6 +356,14 @@ export default function Home() {
                   alt="project"
                 />
               </a>
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+              <a
+                href="https://github.com/Yacoubou-seidou/englishDictionnary"
+                target="_blank" rel='noreferrer'
+              >
+                Link To Code
+              </a>
+              </button>
             </div>
           </div>
         </section>
