@@ -75,7 +75,7 @@ export default function Home() {
                 MERN stack (MongoDb, Express, React.js, Node.js)
               </span>
               , and the main languages in my tech stack is{" "}
-              <span className="text-teal-600">JavaScript</span> . I am passionate about creating robust, user-friendly web applications, and I&apos;m expanding my skills as a student at 
+              <span className="text-teal-600">JavaScript</span> . I am passionate about creating robust, user-friendly web applications, and I&apos;m expanding my skills as a student at
               <a
                 className="hover:underline ml-1 text-blue-500"
                 href="https://www.microverse.org/"
@@ -84,7 +84,7 @@ export default function Home() {
                 Microverse
               </a>{" "}
               , a remote software development school. Love musique, games and sport.
-  .
+              .
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} alt="ilustration"/>
+              <Image src={design} width={100} height={100} alt="ilustration" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Front-End development
               </h3>
@@ -142,9 +142,10 @@ export default function Home() {
               <p className="text-gray-800 py-1">Html5</p>
               <p className="text-gray-800 py-1">Css3</p>
               <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">React.js</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} alt="ilustration"/>
+              <Image src={code} width={100} height={100} alt="ilustration" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Back-end development
               </h3>
@@ -153,21 +154,24 @@ export default function Home() {
                 make it a reality.
               </p>
               <h4 className="py-4 text-teal-600">Tools I Use</h4>
-              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">Node.js</p>
+              <p className="text-gray-800 py-1">Express.js</p>
               <p className="text-gray-800 py-1">MongoDb</p>
               <p className="text-gray-800 py-1">NoSQL</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} alt="ilustration"/>
+              <Image src={consulting} width={100} height={100} alt="ilustration" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Framework</h3>
               <p className="py-2">
                 Did you want framework for your project? I can use many css
                 framework and development one.
               </p>
               <h4 className="py-4 text-teal-600">Tools I Use</h4>
-              <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">Express.js</p>
-              <p className="text-gray-800 py-1">React.js</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
+              <p className="text-gray-800 py-1">Tailwind</p>
+              <p className="text-gray-800 py-1">Materialise</p>
+              <p className="text-gray-800 py-1">Material UI</p>
+
             </div>
           </div>
         </section>
@@ -240,14 +244,14 @@ export default function Home() {
                 />
               </a>
               <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
-              <a
-                href="https://github.com/Yacoubou-seidou/Project-MI"
-                target="_blank" rel='noreferrer'
-              >
-                Link To Code
-              </a>
+                <a
+                  href="https://github.com/Yacoubou-seidou/Project-MI"
+                  target="_blank" rel='noreferrer'
+                >
+                  Link To Code
+                </a>
               </button>
-              
+
             </div>
             <div className="growd basis-1/4 flex-4">
               <a
@@ -263,13 +267,13 @@ export default function Home() {
                   alt="project"
                 />
               </a>
-                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
-              <a
-                href="https://github.com/Yacoubou-seidou/searchBarAnimation"
-                target="_blank" rel='noreferrer'
-              >
-                Link To Code
-              </a>
+              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+                <a
+                  href="https://github.com/Yacoubou-seidou/searchBarAnimation"
+                  target="_blank" rel='noreferrer'
+                >
+                  Link To Code
+                </a>
               </button>
             </div>
             <div className="growd basis-1/4 flex-4">
@@ -286,13 +290,13 @@ export default function Home() {
                   alt="project"
                 />
               </a>
-                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
-              <a
-                href="https://github.com/Yacoubou-seidou/Chopping"
-                target="_blank" rel='noreferrer'
-              >
-                Link To Code
-              </a>
+              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+                <a
+                  href="https://github.com/Yacoubou-seidou/Chopping"
+                  target="_blank" rel='noreferrer'
+                >
+                  Link To Code
+                </a>
               </button>
             </div>
             <div className="growd basis-1/4 flex-4">
@@ -309,13 +313,13 @@ export default function Home() {
                   alt="project"
                 />
               </a>
-                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
-              <a
-                href="https://github.com/Yacoubou-seidou/Myadmin"
-                target="_blank" rel='noreferrer'
-              >
-                Link To Code
-              </a>
+              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+                <a
+                  href="https://github.com/Yacoubou-seidou/Myadmin"
+                  target="_blank" rel='noreferrer'
+                >
+                  Link To Code
+                </a>
               </button>
             </div>
             <div className="growd basis-1/4 flex-4">
@@ -332,13 +336,13 @@ export default function Home() {
                   alt="project"
                 />
               </a>
-                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
-              <a
-                href="https://github.com/Yacoubou-seidou/Karanta"
-                target="_blank" rel='noreferrer'
-              >
-                Link To Code
-              </a>
+              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+                <a
+                  href="https://github.com/Yacoubou-seidou/Karanta"
+                  target="_blank" rel='noreferrer'
+                >
+                  Link To Code
+                </a>
               </button>
             </div>
             <div className="growd basis-1/4 flex-4">
@@ -356,13 +360,13 @@ export default function Home() {
                   alt="project"
                 />
               </a>
-                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
-              <a
-                href="https://github.com/Yacoubou-seidou/englishDictionnary"
-                target="_blank" rel='noreferrer'
-              >
-                Link To Code
-              </a>
+              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full">
+                <a
+                  href="https://github.com/Yacoubou-seidou/englishDictionnary"
+                  target="_blank" rel='noreferrer'
+                >
+                  Link To Code
+                </a>
               </button>
             </div>
           </div>
