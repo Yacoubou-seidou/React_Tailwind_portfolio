@@ -20,7 +20,7 @@ export default function Home() {
     if (darkMode) {
       document.body.style.background = "#101827";
     } else {
-      document.body.style.background = "#F2F4F6";
+      document.body.style.background = "#f2f4f6";
     }
   }
   useEffect(() => {
